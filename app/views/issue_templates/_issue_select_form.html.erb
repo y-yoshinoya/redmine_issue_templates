@@ -80,7 +80,7 @@
                 confirm_message = '<%=h l(:label_template_applied, default: "Issue template is applied. You can revert with click 'Revert' link.") %>';
             }
 
-            templateNS.load_template(load_url, confirm_message, should_replaced, false, confirmation, general_text_Yes, general_text_No);
+            templateNS.load_template(load_url, confirm_message, should_replaced, true, confirmation, general_text_Yes, general_text_No);
         });
 
         // Show dialog
